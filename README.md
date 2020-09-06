@@ -1,0 +1,1 @@
+Dog API meant to generate as many photos as the user submits, to a max of 50.

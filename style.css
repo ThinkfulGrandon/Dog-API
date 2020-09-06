@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    text-align: center;
+    padding-top: 50px;
+}
+
+main {
+    margin: 50px 20px;
+    text-align: center;
+}
