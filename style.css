@@ -12,3 +12,16 @@ main {
     margin: 50px 20px;
     text-align: center;
 }
+
+/* .hidden {
+    display: none;
+} */
+
+.group {
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1;
+    max-width: 200px;
+}

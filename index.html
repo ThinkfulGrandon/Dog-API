@@ -12,18 +12,28 @@
             Lets Get Some Dogs!
         </h1>
         <section>
-            <p>Choose your number of doggos! (max of 50)</p>
-            <form>
+            <p>Choose your number of random doggos! (max of 50)</p>
+            <form class="js-random-dogs">
                 <input type="text" id="dog-amount" value="3" name="dog-amount" required>
                 <button type="submit">submit</button>
             </form>
         </section>
+        <section>
+            <p>get a random dog by breed name! (max of 1)</p>
+            <form class="js-dog-breeds">
+                <input type="text" id="dog-breed" value="hound" name="dog-breed">
+                <button type="submit">submit</button>
+            </form>
+        </section>
     </header>
-    <main>
-        <h2>Let there be doggos!</h2>
-        <div class="group">
-
+    <main class="hidden">
+        <div>
+            <h2>Let there be doggos!</h2>
+            <div class="group">
+                
+            </div>
         </div>
+       
     </main>
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="index.js"></script>
